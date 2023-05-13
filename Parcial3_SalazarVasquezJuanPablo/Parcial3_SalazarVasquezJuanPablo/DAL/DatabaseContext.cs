@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.Metrics;
+using Parcial3_SalazarVasquezJuanPablo.DAL.Entities;
 
 namespace Parcial3_SalazarVasquezJuanPablo.DAL
 {
@@ -9,6 +9,10 @@ namespace Parcial3_SalazarVasquezJuanPablo.DAL
         {
         }
 
-        //public DbSet<Nombre_de_la_tabla> Countries { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<VehicleDetail> VehicleDetails { get; set; }
+
+
     }
 }
