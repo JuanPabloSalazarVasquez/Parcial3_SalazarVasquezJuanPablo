@@ -11,5 +11,8 @@ namespace Parcial3_SalazarVasquezJuanPablo.DAL.Entities
         [Display(Name = "Precio")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         public string Price { get; set; }
+
+        [Display(Name = "Servicio")]
+        public User User { get; set; }
     }
 }

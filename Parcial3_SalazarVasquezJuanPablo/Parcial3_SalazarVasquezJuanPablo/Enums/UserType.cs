@@ -1,4 +1,4 @@
-﻿namespace ECommerce_MW.Enums
+﻿namespace Parcial3_SalazarVasquezJuanPablo.Enums
 {
     public enum UserType
     {

@@ -4,11 +4,11 @@ namespace Parcial3_SalazarVasquezJuanPablo.DAL.Entities
 {
     public class VehicleDetail : Entity
     {
-        [Display(Name = "FechaCreacion")]
+        [Display(Name = "Fecha de creacion")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         public string CreationDate { get; set; }
 
-        [Display(Name = "FechaEntrega")]
+        [Display(Name = "Fecha de entrega")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         public string DeliveryDate { get; set; }
     }
