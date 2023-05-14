@@ -11,5 +11,8 @@ namespace Parcial3_SalazarVasquezJuanPablo.DAL.Entities
         [Display(Name = "Placa")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         public string NumberPlate { get; set; }
+
+        [Display(Name = "Detalle de Vehiculos")]
+        public ICollection<VehicleDetail> VehicleDetails { get; set; }
     }
 }

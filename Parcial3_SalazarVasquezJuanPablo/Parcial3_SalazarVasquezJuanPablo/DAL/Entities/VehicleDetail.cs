@@ -11,5 +11,8 @@ namespace Parcial3_SalazarVasquezJuanPablo.DAL.Entities
         [Display(Name = "Fecha de entrega")]
         [Required(ErrorMessage = "El campo {0} es obligatorio")]
         public string DeliveryDate { get; set; }
+
+        [Display(Name = "Vehiculo")]
+        public Vehicle vehicle { get; set; }
     }
 }
